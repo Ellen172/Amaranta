@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+	display: flex;
+    text-align: center;
+}
+
+.left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-logo {
+    width: 100%;
+}
+
+.right {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#banner {
+    width: 100%;
+    border: 5px;
+}
+
+#image-banner {
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    border: 5px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #00BFFF;
+    padding: 10px;
+    border: 10px;
+}
