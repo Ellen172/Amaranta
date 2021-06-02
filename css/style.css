@@ -48,7 +48,7 @@ header .right {
 }
 
 li > a:link, a:visited {
-    background-color: #00BFFF;
+    background-color: #58D3F7;
     padding: 10px;
     border: 10px;
     border-radius: 30px;
@@ -61,21 +61,36 @@ li > a:link, a:visited {
 
 li > a:hover, a:active {
     background-color: white;
-    color: #00BFFF;
+    color: #58D3F7;
     border: black 1px solid;
 }
 
 .historia {
-    margin: 3px 15px;
+    margin: 20px;
+    padding: 5px 10px 30px 10px;
+    background-color: #58D3F7;
+}
+
+#image {
+    background-color: transparent;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 #image-historia {
     width: 280px;
-    margin: 3px 15px;
+    margin: 0px 15px;
+    background-color: transparent;
 }
 
 .artigo {
     display: flex;
+    background-color: transparent;
+}
+
+.title {
+    background-color: transparent;
 }
 
 .title h1 {
@@ -83,11 +98,20 @@ li > a:hover, a:active {
     font-size: 1.5em;
     font-weight: bold;
     font-style: italic;
+    margin: 5px 5px;
+    padding: 15px 20px;
+    background-color: transparent;
+}
+
+#texto {
+    background-color: transparent;
+    
 }
 
 #texto p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    margin: 3px 10px;
+    margin: 5px 10px;
     text-align: justify;
+    background-color: transparent;
 }
