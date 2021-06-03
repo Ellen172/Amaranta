@@ -44,14 +44,14 @@ header .right {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    
+    background-color: #58D3F7;  
+    padding: 10px;  
 }
 
 li > a:link, a:visited {
     background-color: #58D3F7;
     padding: 10px;
     border: 10px;
-    border-radius: 30px;
     padding: 8px 12px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,10 +62,9 @@ li > a:link, a:visited {
 li > a:hover, a:active {
     background-color: white;
     color: #58D3F7;
-    border: black 1px solid;
 }
 
-.historia {
+.quadro-azul {
     margin: 20px;
     padding: 5px 10px 30px 10px;
     background-color: #58D3F7;
@@ -84,7 +83,11 @@ li > a:hover, a:active {
     background-color: transparent;
 }
 
-.artigo {
+#image-repre {
+    width: 165px;
+}
+
+#artigo {
     display: flex;
     background-color: transparent;
 }
@@ -103,15 +106,50 @@ li > a:hover, a:active {
     background-color: transparent;
 }
 
-#texto {
+#representantes #texto {
     background-color: transparent;
-    
+    margin: 10px 5px;
+    flex-wrap: wrap;
+    width: 220px;
+}
+
+#artigo #texto {
+    background-color: transparent;
+    margin: 10px 5px;
+}
+
+#texto h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: transparent;
+    font-weight: bold;
 }
 
 #texto p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin: 5px 10px;
+    font-size: 0.9em;
     text-align: justify;
     background-color: transparent;
+}
+
+#texto p span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    background-color: transparent;
+}
+
+#representantes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 8px;
+}
+
+#person {
+    background-color: transparent;
+    display: flex;
+    
 }
