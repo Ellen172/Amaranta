@@ -66,7 +66,7 @@ li > a:hover, a:active {
 
 .quadro-azul {
     margin: 20px;
-    padding: 5px 10px 30px 10px;
+    padding: 20px 10px;
     background-color: #58D3F7;
 }
 
@@ -85,6 +85,10 @@ li > a:hover, a:active {
 
 #image-repre {
     width: 165px;
+}
+
+#image-contato {
+    width: 50px;
 }
 
 #artigo {
@@ -145,11 +149,23 @@ li > a:hover, a:active {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: transparent;
-    padding: 8px;
 }
 
 #person {
     background-color: transparent;
     display: flex;
-    
+}
+
+#contato {
+    background-color: transparent;
+    padding: 10px 15px;
+    display: flex;
+}
+
+#contato #image {
+    background-color: transparent;
+}
+
+#contato #texto {
+    background-color: transparent;
 }
